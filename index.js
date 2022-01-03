@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/hello',(req,res)=>{
     return res.status(200).send({
-        "message" : "Hello World"
+        "message" : "Hello World - Test"
     });
 })
 
